@@ -18,8 +18,16 @@
     "128": "images/icon128.png"
   },
   "web_accessible_resources": [
-    "popup.html",
-    "popup.js",
-    "popup.css"
+    {
+        "resources": [
+            "popup.html",
+            "popup.js",
+            "popup.css"
+        ],
+        "matches": [
+            "<all_urls>"
+        ]
+    }
   ]
 }
+
